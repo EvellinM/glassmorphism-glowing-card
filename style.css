@@ -74,20 +74,20 @@ body {
     width: calc(100% - 90px);
 }
 
-.container .box:first-child::before,
-.container .box:first-child::after {
+.container .box:nth-child(1):before,
+.container .box:nth-child(1):after {
 
     background: linear-gradient(315deg, #ffd2de, #f792e4);
 }
 
-.container .box:second-child::before,
-.container .box:second-child::after {
+.container .box:nth-child(2):before,
+.container .box:nth-child(2):after {
 
     background: linear-gradient(315deg, #de39e9, #8623ae);
 }
 
-.container .box:last-child::before,
-.container .box:last-child::after {
+.container .box:nth-child(3):before,
+.container .box:nth-child(3):after {
 
     background: linear-gradient(315deg, #6d4299, #2e1e5c);
 }
